@@ -7,10 +7,11 @@ const users = document.querySelector('.users');
 const button = document.querySelector('.btn');
 
 posts.classList.add('hide');
-
 button.addEventListener('click', () => {
   location.reload();
 });
+
+// Fetch selected user's posts
 
 const fetchPosts = async (id) => {
   try {
@@ -31,6 +32,7 @@ const fetchPosts = async (id) => {
   }
 };
 
+// Helper function
 const selectUser = (e) => {
   users.classList.add('hide');
   posts.classList.remove('hide');
@@ -38,11 +40,12 @@ const selectUser = (e) => {
   fetchPosts(id);
 };
 
+// Fetch all users
+
 const fetchUsers = async (e) => {
   try {
     const response = await fetch(usersLink);
     const users = await response.json();
-    console.log(users);
     for (let i = 0; i < users.length; i++) {
       const user = document.createElement('li');
       user.classList.add('single-user');
@@ -59,4 +62,5 @@ const fetchUsers = async (e) => {
   });
 };
 
+// All user data is fetched when the page is loaded
 window.addEventListener('load', fetchUsers);
