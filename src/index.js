@@ -1,4 +1,5 @@
-/* eslint-disable Missing trailing comma, Unexpected use of 'location'  */
+/* eslint-disable  no-restricted-globals */
+/* eslint-disable   comma-dangle */
 const usersLink = 'https://jsonplaceholder.typicode.com/users';
 const usersContainer = document.querySelector('.users-list');
 const postsContainer = document.querySelector('.user-posts');
