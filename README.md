@@ -1,6 +1,6 @@
 # Vanilla JS Test Project
 
-> This is a simple single page web application that receives JSON data and renders the data into the DOM. Thanks to (JSONPlaceholder)[https://jsonplaceholder.typicode.com/guide/] API.
+> This is a simple single page web application that receives JSON data and renders the data into the DOM. Thanks to [JSONPlaceholder](https://jsonplaceholder.typicode.com/guide/) API.
 
 ## Built With
 
@@ -8,7 +8,7 @@
 - CSS
 - JAVASCRIPT
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
@@ -34,4 +34,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- []Thanks to (JSONPlaceholder)[https://jsonplaceholder.typicode.com/guide/] API.
+- Thanks to (JSONPlaceholder)[https://jsonplaceholder.typicode.com/guide/] API.
