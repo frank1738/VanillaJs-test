@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users {
+  padding: 5rem;
+}
+
+.single-user {
+  list-style: none;
+  border: 1px solid grey;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  padding: 0.2rem 1rem;
+}
+
+b {
+  align-self: flex-start;
+}
+
+.users-list {
+  margin-top: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
+
+.header-section {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  background: none;
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
