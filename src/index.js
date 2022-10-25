@@ -37,7 +37,7 @@ const fetchPosts = async (id) => {
 const selectUser = (e) => {
   users.classList.add('hide');
   posts.classList.remove('hide');
-  const id = e.target.id;
+  const { id } = e.target;
   fetchPosts(id);
 };
 
