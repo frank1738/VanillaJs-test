@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://frank1738.github.io/VanillaJs-test/)
 
 👤 **Frankline Osoro**
 
