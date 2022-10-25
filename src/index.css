@@ -15,7 +15,7 @@ body {
   padding: 5rem;
 }
 
-li {
+.single-user {
   list-style: none;
   border: 1px solid grey;
   text-align: center;
@@ -30,4 +30,26 @@ b {
 
 .users-list {
   margin-top: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
+
+.header-section {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  background: none;
+  border: 1px solid grey;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
