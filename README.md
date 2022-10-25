@@ -34,4 +34,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to (JSONPlaceholder)[https://jsonplaceholder.typicode.com/guide/] API.
+- Thanks to [JSONPlaceholder](https://jsonplaceholder.typicode.com/guide/) API.
