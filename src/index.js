@@ -1,5 +1,5 @@
+/* eslint-disable Missing trailing comma, Unexpected use of 'location'  */
 const usersLink = 'https://jsonplaceholder.typicode.com/users';
-const userPosts = 'https://jsonplaceholder.typicode.com/posts';
 const usersContainer = document.querySelector('.users-list');
 const postsContainer = document.querySelector('.user-posts');
 const posts = document.querySelector('.posts');
@@ -20,7 +20,7 @@ const fetchPosts = async (id) => {
     );
     const posts = await response.json();
 
-    for (let i = 0; i < posts.length; i++) {
+    for (let i = 0; i < posts.length; i += 1) {
       const post = document.createElement('li');
       post.classList.add('single-post');
       post.innerHTML = ` <h3 class="post">${posts[i].title}</h3>
@@ -42,11 +42,11 @@ const selectUser = (e) => {
 
 // Fetch all users
 
-const fetchUsers = async (e) => {
+const fetchUsers = async () => {
   try {
     const response = await fetch(usersLink);
     const users = await response.json();
-    for (let i = 0; i < users.length; i++) {
+    for (let i = 0; i < users.length; i += 1) {
       const user = document.createElement('li');
       user.classList.add('single-user');
       user.setAttribute('id', users[i].id);
